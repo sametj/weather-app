@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="banner">Weather</h1>
+    <section class="input">
+      <input class="input-field" type="text" placeholder="Search City" />
+      <div class="button-div">
+        <button id="search-button" type="button">Search</button>
+      </div>
+    </section>
+
+    <section class="weather-body">
+      <div class="weather-box">
+        <div class="weather-header">
+          <h1 class="city">----</h1>
+        </div>
+
+        <div class="weather-info">
+          <h1 id="weather-type" class="title">----</h1>
+        </div>
+
+        <ul class="weather-list">
+          <li class="weather-item">
+            Temperature: <span id="temp">----</span>&deg;
+          </li>
+          <li class="weather-item">
+            Min Temp: <span id="min-temp">----</span>&deg;
+          </li>
+          <li class="weather-item">
+            Max Temp: <span id="max-temp">----</span>&deg;
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+
+  <script src="script.js"></script>
+</html>
