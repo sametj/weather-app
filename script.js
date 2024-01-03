@@ -16,8 +16,6 @@ getWeatherData = (city) => {
   });
 };
 
-console.log(getWeatherData("New York"));
-
 searchCity = () => {
   const city = document.querySelector(".input-field").value;
   getWeatherData(city)
